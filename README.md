@@ -41,10 +41,7 @@ A pygame-based asteroid dodging game with multiple features including smooth mov
 
 ```
 asteroid_dodger/
-├── assets/
-│   ├── images/
-│   ├── sounds/
-│   └── fonts/
+├── high_score.json
 ├── scripts/
 │   ├── __init__.py
 │   ├── game.py
@@ -59,24 +56,6 @@ asteroid_dodger/
 │   └── sound_manager.py
 └── main.py
 ```
-
-## Adding Custom Assets
-
-You can add your own assets to enhance the game:
-
-1. **Sound Effects**: Place .wav files in the `assets/sounds/` directory with the following names:
-   - laser.wav
-   - explosion.wav
-   - player_hit.wav
-   - powerup.wav
-   - wave.wav
-   - game_over.wav
-   - menu_select.wav
-
-2. **Images**: Place image files in the `assets/images/` directory.
-
-3. **Fonts**: Place font files in the `assets/fonts/` directory.
-
 ## Extending the Game
 
 The modular structure makes it easy to extend the game with new features:
